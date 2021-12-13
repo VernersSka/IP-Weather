@@ -5,9 +5,13 @@ namespace App\Controller;
 class IPController
 {
     protected function getIp() {
-        // todo logic for getting client's IP
+        // uncomment when hosted on a server
+        // $ip = $_SERVER['REMOTE_ADDR'];
+
+        // test cases for localhost
+        $ip = '122.100.149.65';
         // $ip = '73.177.121.07';
-        $ip = '83.177.149.85';
+        // $ip = '43.87.119.85';
 
         return $ip;
     }
